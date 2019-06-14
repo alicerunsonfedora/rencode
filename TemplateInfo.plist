@@ -8,6 +8,90 @@
 		<string>game/options.rpy</string>
 		<string>game/screens.rpy</string>
 		<string>game/script.rpy</string>
+		<string>game/cache/bytecode.rpyb</string>
+		<string>game/cache/pyanalysis.rpyb</string>
+		<string>game/cache/screens.rpyb</string>
+		<string>game/gui/frame.png</string>
+		<string>game/gui/game_menu.png</string>
+		<string>game/gui/main_menu.png</string>
+		<string>game/gui/namebox.png</string>
+		<string>game/gui/notify.png</string>
+		<string>game/gui/nvl.png</string>
+		<string>game/gui/skip.png</string>
+		<string>game/gui/textbox.png</string>
+		<string>game/gui/window_icon.png</string>
+		<string>game/gui/bar/bottom.png</string>
+		<string>game/gui/bar/left.png</string>
+		<string>game/gui/bar/right.png</string>
+		<string>game/gui/bar/top.png</string>
+		<string>game/gui/button/check_foreground.png</string>
+		<string>game/gui/button/check_selected_foreground.png</string>
+		<string>game/gui/button/choice_hover_background.png</string>
+		<string>game/gui/button/choice_idle_background.png</string>
+		<string>game/gui/button/hover_background.png</string>
+		<string>game/gui/button/idle_background.png</string>
+		<string>game/gui/button/quick_hover_background.png</string>
+		<string>game/gui/button/quick_idle_background.png</string>
+		<string>game/gui/button/radio_foreground.png</string>
+		<string>game/gui/button/radio_selected_foreground.png</string>
+		<string>game/gui/button/slot_hover_background.png</string>
+		<string>game/gui/button/slot_idle_background.png</string>
+		<string>game/gui/overlay/confirm.png</string>
+		<string>game/gui/overlay/game_menu.png</string>
+		<string>game/gui/overlay/main_menu.png</string>
+		<string>game/gui/scrollbar/horizontal_hover_bar.png</string>
+		<string>game/gui/scrollbar/horizontal_hover_thumb.png</string>
+		<string>game/gui/scrollbar/horizontal_idle_bar.png</string>
+		<string>game/gui/scrollbar/horizontal_idle_thumb.png</string>
+		<string>game/gui/scrollbar/vertical_hover_bar.png</string>
+		<string>game/gui/scrollbar/vertical_hover_thumb.png</string>
+		<string>game/gui/scrollbar/vertical_idle_bar.png</string>
+		<string>game/gui/scrollbar/vertical_idle_thumb.png</string>
+		<string>game/gui/slider/horizontal_hover_bar.png</string>
+		<string>game/gui/slider/horizontal_hover_thumb.png</string>
+		<string>game/gui/slider/horizontal_idle_bar.png</string>
+		<string>game/gui/slider/horizontal_idle_thumb.png</string>
+		<string>game/gui/slider/vertical_hover_bar.png</string>
+		<string>game/gui/slider/vertical_hover_thumb.png</string>
+		<string>game/gui/slider/vertical_idle_bar.png</string>
+		<string>game/gui/slider/vertical_idle_thumb.png</string>
+		<string>game/gui/phone/bar/bottom.png</string>
+		<string>game/gui/phone/bar/left.png</string>
+		<string>game/gui/phone/bar/right.png</string>
+		<string>game/gui/phone/bar/top.png</string>
+		<string>game/gui/phone/button/check_foreground.png</string>
+		<string>game/gui/phone/button/check_selected_foreground.png</string>
+		<string>game/gui/phone/button/choice_hover_background.png</string>
+		<string>game/gui/phone/button/choice_idle_background.png</string>
+		<string>game/gui/phone/button/hover_background.png</string>
+		<string>game/gui/phone/button/idle_background.png</string>
+		<string>game/gui/phone/button/quick_hover_background.png</string>
+		<string>game/gui/phone/button/quick_idle_background.png</string>
+		<string>game/gui/phone/button/radio_foreground.png</string>
+		<string>game/gui/phone/button/radio_selected_foreground.png</string>
+		<string>game/gui/phone/button/slot_hover_background.png</string>
+		<string>game/gui/phone/button/slot_idle_background.png</string>
+		<string>game/gui/phone/overlay/confirm.png</string>
+		<string>game/gui/phone/overlay/game_menu.png</string>
+		<string>game/gui/phone/overlay/main_menu.png</string>
+		<string>game/gui/phone/scrollbar/horizontal_hover_bar.png</string>
+		<string>game/gui/phone/scrollbar/horizontal_hover_thumb.png</string>
+		<string>game/gui/phone/scrollbar/horizontal_idle_bar.png</string>
+		<string>game/gui/phone/scrollbar/horizontal_idle_thumb.png</string>
+		<string>game/gui/phone/scrollbar/vertical_hover_bar.png</string>
+		<string>game/gui/phone/scrollbar/vertical_hover_thumb.png</string>
+		<string>game/gui/phone/scrollbar/vertical_idle_bar.png</string>
+		<string>game/gui/phone/scrollbar/vertical_idle_thumb.png</string>
+		<string>game/gui/phone/slider/horizontal_hover_bar.png</string>
+		<string>game/gui/phone/slider/horizontal_hover_thumb.png</string>
+		<string>game/gui/phone/slider/horizontal_idle_bar.png</string>
+		<string>game/gui/phone/slider/horizontal_idle_thumb.png</string>
+		<string>game/gui/phone/slider/vertical_hover_bar.png</string>
+		<string>game/gui/phone/slider/vertical_hover_thumb.png</string>
+		<string>game/gui/phone/slider/vertical_idle_bar.png</string>
+		<string>game/gui/phone/slider/vertical_idle_thumb.png</string>
+		<string>game/gui/phone/nvl.png</string>
+		<string>game/gui/phone/textbox.png</string>
 	</array>
 	<key>Project</key>
 	<dict/>
@@ -81,7 +165,7 @@
 			<key>BuildToolPath</key>
 			<string>___VARIABLE_buildToolPath___</string>
 			<key>BuildToolArgsString</key>
-			<string>$(SRCROOT)/game lint</string>
+			<string>$(SRCROOT)/$(TARGETNAME)/game lint</string>
 			<key>SharedSettings</key>
 			<dict>
 				<key>OTHER_CFLAGS</key>
